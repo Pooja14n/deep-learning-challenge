@@ -64,3 +64,17 @@ Note:
 4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
 5. Save and export the results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
 
+# Step 4: Write a Report on the Neural Network Model
+For this part of the assignment, we have to write a report on the performance of the deep learning model you created for Alphabet Soup. The report should contain the following:
+1. Overview of the analysis: Explain the purpose of this analysis.
+2. Results: Using bulleted lists and images to support your answers, address the following questions:
+  a. Data Preprocessing
+    i.  What variable(s) are the target(s) for your model?
+    ii. What variable(s) are the features for your model?
+    iii.What variable(s) should be removed from the input data because they are neither targets nor features?
+  b. Compiling, Training, and Evaluating the Model
+    i.  How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    ii. Were you able to achieve the target model performance?
+    iii.What steps did you take in your attempts to increase model performance?
+3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
