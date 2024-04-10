@@ -66,7 +66,7 @@ Note:
 
 # Step 4: Write a Report on the Neural Network Model
 For this part of the assignment, we have to write a report on the performance of the deep learning model you created for Alphabet Soup. The report should contain the following:
-1. Overview of the analysis: <br> With the knowledge of machine learning and neural networks, we have to use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+1. <b> Overview of the analysis:</b> <br> With the knowledge of machine learning and neural networks, we have to use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 2. Results: Using bulleted lists and images to support your answers, address the following questions:
   a. Data Preprocessing
     i.  What variable(s) are the target(s) for your model?
@@ -78,3 +78,11 @@ For this part of the assignment, we have to write a report on the performance of
     iii.What steps did you take in your attempts to increase model performance?
 3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
+# References
+Referred to various class activity exercises, got support from Assistant Instructor, and websites: https://scikit-learn.org.
+
+# Files submitted including this README File
+-> credit-risk-classification Folder <br>
+a. Resources Folder -> lending_data.csv (contains the CSV file) <br>
+b. credit_risk_classification.ipynb (contains the srcipt) <br>
+c. report-template.md (Analysis Report is written using this report template)
