@@ -72,11 +72,11 @@ For this part of the assignment, we have to write a report on the performance of
     i.  What variable(s) are the target(s) for your model? - The target variable for the model is `IS_SUCCESSFUL`, which indicates whether the applicant was successful (1) or not sucessful (0) in receiving funding. <br>
     ii. What variable(s) are the features for your model? - The feature variables for the model are as follows: `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT` <br>
     iii.What variable(s) should be removed from the input data because they are neither targets nor features? - The  variable removed from the input data are: `EIN` and `NAME` in the inital model. I have removed two other varibales in the optimization models, which are: `STATUS` ans `SPECIAL_CONSIDERATIONS`. <br>
-  b. Compiling, Training, and Evaluating the Model
-    i.  How many neurons, layers, and activation functions did you select for your neural network model, and why?
+  b. Compiling, Training, and Evaluating the Model <br>
+    i.  How many neurons, layers, and activation functions did you select for your neural network model, and why? - I used <b>two</b> hidden layers in all the models. 
     ii. Were you able to achieve the target model performance?
-    iii.What steps did you take in your attempts to increase model performance?
-3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+    iii.What steps did you take in your attempts to increase model performance? <br>
+3. <b>Summary:</b> Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation. - <br>
 
 # References
 Referred to various class activity exercises, got support from Assistant Instructor, and websites: https://scikit-learn.org.
