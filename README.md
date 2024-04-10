@@ -73,16 +73,17 @@ For this part of the assignment, we have to write a report on the performance of
     ii. What variable(s) are the features for your model? - The feature variables for the model are as follows: `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT` <br>
     iii.What variable(s) should be removed from the input data because they are neither targets nor features? - The  variable removed from the input data are: `EIN` and `NAME` in the inital model. I have removed two other varibales in the optimization models, which are: `STATUS` ans `SPECIAL_CONSIDERATIONS`. <br>
   b. Compiling, Training, and Evaluating the Model <br>
-    i.  How many neurons, layers, and activation functions did you select for your neural network model, and why? - I used <b>two</b> hidden layers in all the models. In the inital model, I used 9 neurons with `relu` activation function in the first hidden layer and 5 neurons with `relu` activation function in the second hidden layer, and `sigmoid` activation function in the output layer. In the first optimization model, I used 100 neurons with `relu` activation function in the first hidden layer and 100 neurons with `relu` activation function in the second hidden layer, and `sigmoid` activation function in the output layer. In the second optimization model, I used 100 neurons with `relu` activation function in the first hidden layer and 100 neurons with `relu` activation function in the second hidden layer, and `sigmoid` activation function in the output layer.<br>
-    ii. Were you able to achieve the target model performance? <br>
-    iii.What steps did you take in your attempts to increase model performance? <br>
-3. <b>Summary:</b> Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation. - <br>
+    i.  How many neurons, layers, and activation functions did you select for your neural network model, and why? - I used <b>two</b> hidden layers in the inital and first optimization models, and 3 hidden layers in the third optimization model. In the inital model, I used 9 neurons with `relu` activation function in the first hidden layer and 5 neurons with `relu` activation function in the second hidden layer, and `sigmoid` activation function in the output layer. In the first optimization model, I used 100 neurons with `relu` activation function in the first hidden layer and 100 neurons with `relu` activation function in the second hidden layer, and `sigmoid` activation function in the output layer. In the second optimization model, I used 100 neurons with `relu` activation function in the first hidden layer, 90 neurons with `sigmoid` activation function in the second layer, 70 neurons with `sigmoid` activation function in the third hidden layer, and `sigmoid` activation function in the output layer.<br>
+    ii. Were you able to achieve the target model performance? - I was able to achieve 74.9% in Optimization model 2, which is very close to the target model performance of 75%. <br>
+    iii.What steps did you take in your attempts to increase model performance? - I only dropped the column `EIN` in the second optimization model and used `APPLICATION_TYPE`, `CLASSIFICATION`, and `NAME` value counts for binning; used 3 hidden layers, `relu` activation function in the first layer, and `sigmoid` activation functions in the second, third, and the output layer. <br>
+3. <b>Summary:</b> Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation. - The following steps did help in obtaining better results: <br> -> Dropping fewer columns, <br> -> Creating more bins for rare occurrences in columns, <br> -> Increasing the number of values for each bin, <br> -> Adding more neurons to a hidden layer, <br> -> Adding more hidden layers, <br> -> Using different activation functions for the hidden layers.<br>
+In the final optimization model, an accuracy of approximately 74.5% was achieved. <br>
 
 # References
-Referred to various class activity exercises, got support from Assistant Instructor, and websites: https://scikit-learn.org.
+Referred to various class activity exercises, got support from Assistant Instructor, and websites: https://scikit-learn.org and https://keras.io.
 
 # Files submitted including this README File
--> credit-risk-classification Folder <br>
-a. Resources Folder -> lending_data.csv (contains the CSV file) <br>
+-> deep-learning-challenge Folder <br>
+a. Starter_Code.ipynb (initial model)
 b. credit_risk_classification.ipynb (contains the srcipt) <br>
 c. report-template.md (Analysis Report is written using this report template)
