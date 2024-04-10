@@ -67,11 +67,11 @@ Note:
 # Step 4: Write a Report on the Neural Network Model
 For this part of the assignment, we have to write a report on the performance of the deep learning model you created for Alphabet Soup. The report should contain the following:
 1. <b> Overview of the analysis:</b> <br> With the knowledge of machine learning and neural networks, we have to use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
-2. <b>Results:</b> Using bulleted lists and images to support your answers, address the following questions:
-  a. Data Preprocessing
-    i.  What variable(s) are the target(s) for your model?
-    ii. What variable(s) are the features for your model?
-    iii.What variable(s) should be removed from the input data because they are neither targets nor features?
+2. <b>Results:</b> Using bulleted lists and images to support your answers, address the following questions: <br>
+  a. Data Preprocessing <br>
+    i.  What variable(s) are the target(s) for your model? - The target variable for the model is `IS_SUCCESSFUL`, which indicates whether the applicant was successful (1) or not sucessful (0) in receiving funding. <br>
+    ii. What variable(s) are the features for your model? - The feature variables for the model are as follows: `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT` <br>
+    iii.What variable(s) should be removed from the input data because they are neither targets nor features? - The  variable removed from the input data are: `EIN` and `NAME` in the inital model. I have removed two other varibales in the optimization models, which are: `STATUS` ans `SPECIAL_CONSIDERATIONS`. <br>
   b. Compiling, Training, and Evaluating the Model
     i.  How many neurons, layers, and activation functions did you select for your neural network model, and why?
     ii. Were you able to achieve the target model performance?
