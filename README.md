@@ -45,3 +45,22 @@ Using the knowledge of TensorFlow, we have to design a neural network, or deep l
 9. Evaluate the model using the test data to determine the loss and accuracy.
 10. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity.h5`.
 
+# Step 3: Optimize the Model
+Using the knowledge of TensorFlow, optimize the model to achieve a target predictive accuracy higher than 75%.
+Use any or all of the following methods to optimize your model:
+1. Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+  a. Dropping more or fewer columns.
+  b. Creating more bins for rare occurrences in columns.
+  c. Increasing or decreasing the number of values for each bin.
+  d. Add more neurons to a hidden layer.
+  e. Add more hidden layers.
+  f. Use different activation functions for the hidden layers.
+  g. Add or reduce the number of epochs to the training regimen.
+
+Note: 
+1. Create a new Google Colab file and name it AlphabetSoupCharity_Optimization.ipynb.
+2. Import the dependencies and read in the charity_data.csv to a Pandas DataFrame.
+3. Preprocess the dataset as in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
+4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
+5. Save and export the results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
+
