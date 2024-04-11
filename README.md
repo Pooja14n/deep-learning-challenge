@@ -84,6 +84,7 @@ Referred to various class activity exercises, got support from Assistant Instruc
 
 # Files submitted including this README File
 -> deep-learning-challenge Folder <br>
-a. Starter_Code.ipynb (initial model)
-b. credit_risk_classification.ipynb (contains the srcipt) <br>
-c. report-template.md (Analysis Report is written using this report template)
+a. Starter_Code.ipynb (contains the srcipt for the initial model) <br>
+b. AlphabetSoupCharity_Optimization1.ipynb (contains the srcipt for the first optimization model) <br>
+c. AlphabetSoupCharity_Optimization2.ipynb (contains the srcipt for the second optimization model) <br>
+d. HDF5 files: AlphabetSoupCharity.h5 (results for inital model), AlphabetSoupCharity_Optimization1.h5 (results for the first optimization model), AlphabetSoupCharity_Optimization2.h5 (results for the second optimization model)
