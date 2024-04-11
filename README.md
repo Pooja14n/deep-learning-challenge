@@ -80,7 +80,7 @@ For this part of the assignment, we have to write a report on the performance of
 In the final optimization model, an accuracy of approximately 74.5% was achieved. <br>
 
 # References
-Referred to various class activity exercises, got support from Assistant Instructor, and websites: https://scikit-learn.org and https://keras.io.
+Referred to various class activity exercises, got support from Assistant Instructor, and websites: https://scikit-learn.org, https://colab.research.google.com/github/google/tf-quant-finance/blob/master/tf_quant_finance/examples/jupyter_notebooks/Introduction_to_TensorFlow_Part_1_-_Basics.ipynb?authuser=1, and https://keras.io.
 
 # Files submitted including this README File
 -> deep-learning-challenge Folder <br>
