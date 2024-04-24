@@ -99,3 +99,4 @@ a. Starter_Code.ipynb (contains the srcipt for the initial model) <br>
 b. AlphabetSoupCharity_Optimization1.ipynb (contains the srcipt for the first optimization model) <br>
 c. AlphabetSoupCharity_Optimization2.ipynb (contains the srcipt for the second optimization model) <br>
 d. HDF5 files: AlphabetSoupCharity.h5 (results for inital model), AlphabetSoupCharity_Optimization1.h5 (results for the first optimization model), AlphabetSoupCharity_Optimization2.h5 (results for the second optimization model)
+e. Alphabet Soup - Analysis Report.docx (contains detailed Analysis Report)
